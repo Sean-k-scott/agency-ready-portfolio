@@ -9,7 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p {
+body, h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
   font-weight: normal;
@@ -55,16 +55,38 @@ img {
   flex-direction: column;
 }
 
-// Set every other background color to differentiate between sections
+// Set every other section's background color and colors to differentiate between sections
 
 section:nth-child(odd) {
+  @include borders-tl-br($darkblue);
   background-color: $softwhite;
   color: $darkgrey;
+  a {
+    color: $c2ared;
+    text-decoration: underline;
+  }
+  a:visited {
+    color: $deeppurple;
+  }
+  a:hover {
+    cursor: pointer;
+  }
 }
 
 section:nth-child(even) {
+  @include borders-tr-bl($softwhite);
   background-color: $darkgrey;
   color: $softwhite;
+  a {
+    color: $c2alightred;
+    text-decoration: underline;
+  }
+  a:visited {
+    color: $lightpurple;
+  }
+  a:hover {
+    cursor: pointer;
+  }
 }
 
 // Preset section padding
@@ -87,18 +109,6 @@ section {
   position: relative;
 }
 
-// Standard Link Styling
-
-a {
-  color: $c2ared;
-  text-decoration: underline;
-}
-a:visited {
-  color: $deeppurple;
-}
-a:hover {
-  cursor: pointer;
-}
 
 // Top of Page Link
 
@@ -110,6 +120,8 @@ a:hover {
 
 .button {
   text-transform: uppercase;
+  text-decoration: none!important;
+  display: inline-block;
   &:hover {
       text-decoration: none;
       cursor: pointer;
@@ -118,11 +130,22 @@ a:hover {
       }
   }
   &.c2a-button {
-    color: $white;
+    color: $white!important;
     background-color: $c2ared;
     letter-spacing: 2px;
     font-size: 1.2em;
     padding: 10px 25px;
     transition: 0.25s all;
+  }
+}
+
+// Content List Styling
+
+.content-left, .content-right {
+  ul {
+    padding-left: 0px;
+    li {
+      padding-left: 10px;
+    }
   }
 }

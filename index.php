@@ -8,7 +8,7 @@
 <main id="top">
   <section class="home-opening_section first-section_padding">
     <div class="grid-container">
-      <div class="content-left">
+      <div class="image-left">
         <img src="/assets/img/sean-scott.jpg" alt="Sean Scott working on a laptop in development of a website" />
       </div>
       <div class="content-right">

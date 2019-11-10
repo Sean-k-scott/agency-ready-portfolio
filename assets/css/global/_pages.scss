@@ -1,9 +1,8 @@
 // Homepage
 
 section.home-opening_section {
-    @include borders-tl-br($darkblue);
-  .content-left {
-    @include grid-content-left;
+  .image-left {
+    @include grid-image-left;
   }
   .content-right {
     @include grid-content-right;
@@ -20,7 +19,6 @@ section.home-opening_section {
 }
 
 section.home-onthis_site {
-  @include borders-tr-bl($softwhite);
   .on-this_site {
     text-align: center;
     margin-bottom: 50px;
@@ -50,7 +48,6 @@ section.home-onthis_site {
 }
 
 section.home-technologies_i_use {
-  @include borders-tl-br($darkblue);
   h2 {
     text-align: center;
     margin-bottom: 50px;
@@ -82,5 +79,56 @@ section.home-technologies_i_use {
 // Portfolio
 
 section.portfolio-opening_section {
-    @include borders-tl-br($darkblue);
+    .flex-container {
+      align-items: center;
+      h2 {
+        text-align: center;
+        margin: 0px auto 30px auto;
+        max-width: 700px;
+      }
+      h3 {
+        text-align: center;
+      }
+    }
 }
+
+section.portfolio-case_study {
+  .content-left {
+    @include grid-content-left;
+    h2 {
+      margin-bottom: 15px;
+    }
+    .button {
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+  }
+  .content-right {
+    @include grid-content-right;
+    h2 {
+      margin-bottom: 15px;
+    }
+    .button {
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+  }
+  .image-left {
+    @include grid-image-left;
+  }
+  .image-right {
+    @include grid-image-right;
+  }
+}
+
+section.portfolio-closing_section {
+  .flex-container {
+    text-align: center;
+    h3 {
+      max-width: 800px;
+      margin: 0px auto;
+    }
+  }
+}
+
+//
