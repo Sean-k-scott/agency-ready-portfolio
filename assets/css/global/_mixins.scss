@@ -1,0 +1,172 @@
+// Mixin for Underline Hover Effect
+
+@mixin underline-effect($col: $black) {
+  position: relative;
+  text-decoration: none;
+  color: $col;
+
+  &::before {
+    background: $col;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    visibility: hidden;
+    -moz-transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    transition: all .3s ease-in-out 0s;
+  }
+    @media (max-width: 768px) {
+      &:hover {
+          opacity: 0.8;
+      }
+    }
+    @media (min-width: 769px) {
+      &:hover::before {
+        visibility: visible;
+        transform: scaleX(1);
+        -webkit-transform: scaleX(1);
+        -moz-transform: scaleX(1);
+      }
+    }
+}
+
+
+// Mixin for Accordian Toggle Plus/Minus
+
+@mixin accordianIcons($bg-colour, $line-colour, $box-height, $line-height) {
+	%open-close-basic {
+		background: $bg-colour;
+		display: inline-block;
+		float: right;
+		height: $box-height;
+		position: relative;
+		transition: background 0.4s ease;
+		width: $box-height;
+		&::after,
+		&::before {
+			@include clearfix;
+			@include centerer;
+			background: $line-colour;
+		}
+		&::after {
+			height: 2px;
+			width: $line-height;
+		}
+		&::before {
+			height: $line-height;
+			opacity: 1;
+			transition: opacity 0.4s ease;
+			width: 2px;
+		}
+	}
+	.open-close {
+		@extend %open-close-basic;
+		background: rgba($bg-colour, 0.5);
+		&::before {
+			opacity: 0;
+		}
+	}
+	.collapsed {
+		&:hover {
+			.open-close {
+				background: rgba($bg-colour, 0.6);
+			}
+		}
+		.open-close {
+			@extend %open-close-basic;
+		}
+	}
+}
+
+@mixin clearfix {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+@mixin centerer($left: 50%, $top: 50%) {
+	left: $left;
+	position: absolute;
+	top: $top;
+	transform: translate(-$left, -$top);
+}
+
+// hoverTransform
+
+@mixin hoverTransform {
+  transform: scale(1.05);
+}
+
+// Grid border art
+
+@mixin borders-tl-br($col: $darkblue) {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 100px;
+    height: 100px;
+    border-top: 4px solid $col;
+    border-left: 4px solid $col;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    width: 100px;
+    height: 100px;
+    border-right: 4px solid $col;
+    border-bottom: 4px solid $col;
+  }
+}
+
+@mixin borders-tr-bl($col: $darkblue) {
+  &::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 100px;
+    height: 100px;
+    border-top: 4px solid $col;
+    border-right: 4px solid $col;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 100px;
+    height: 100px;
+    border-left: 4px solid $col;
+    border-bottom: 4px solid $col;
+  }
+}
+
+// Grid Content
+
+@mixin grid-content-left {
+  grid-column: 2/14;
+  @media (min-width: 768px) {
+    grid-column: 4/12;
+  }
+  @media (min-width: 992px) {
+    grid-column: 2/8;
+  }
+}
+
+@mixin grid-content-right {
+  grid-column: 2/14;
+  @media (min-width: 768px) {
+    grid-column: 4/12;
+  }
+  @media (min-width: 992px) {
+    grid-column: 9/14;
+  }
+}

@@ -1,0 +1,38 @@
+footer {
+  background-color: $darkgrey;
+  text-align: center;
+  color: $white;
+  h3 {
+    padding: 30px 20px;
+  }
+  h4 {
+    margin-bottom: 25px;
+  }
+  .icons {
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 568px) {
+      display: block;
+      margin: 10px auto;
+      max-width: 200px;
+    }
+    justify-content: center;
+    .icon-container {
+      text-align: left;
+      margin-left: 15px;
+    }
+    i {
+      color: $white;
+      font-size: 1.4em;
+      margin-right: 10px;
+    }
+    a {
+      color: $c2alightred;
+      margin-right: 20px;
+    }
+  }
+  .copyright {
+    margin-top: 25px;
+    padding-bottom: 25px;
+  }
+}

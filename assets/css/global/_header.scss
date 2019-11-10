@@ -1,0 +1,110 @@
+// No Javascript Menu
+
+body.no-js {
+  nav {
+    display: block!important;
+    ul {
+      @media (max-width: 576px) {
+        flex-direction: column;
+      }
+    }
+  }
+  header {
+    position: static;
+    i {
+      display: none!important;
+    }
+  }
+  .left-container {
+    @media (max-width: 992px) {
+      justify-content: center;
+    }
+  }
+  .header-container {
+    @media (max-width: 992px) {
+      flex-direction: column;
+    }
+  }
+}
+
+header {
+  padding: 0px 2rem;
+  z-index: 2;
+  position: sticky;
+  top: 0px;
+  background-color: $white;
+  box-shadow: 0px 2px 12px rgba(230, 230, 230, 0.5);
+  .header-container {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
+  .left-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    @media (max-width: 991px) {
+      width: 100%;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+
+  i {
+    display: inline-block;
+    @media (min-width: 992px) {
+      display: none!important;
+    }
+    font-size: 1.8em;
+    color: $darkblue;
+  }
+  h1 {
+    font-family: $handwritten;
+    font-size: 3.2em;
+    color: $darkblue;
+    margin: 15px 0px;
+  }
+
+  nav {
+    display: none;
+    @media (min-width: 992px) {
+      display: block;
+    }
+    ul {
+      font-family: $title;
+      display: flex;
+      list-style: none;
+      padding-left: 0px;
+      @media (min-width: 576px) {
+        li:first-child {
+          padding-left: 0px;
+          padding-right: 1em;
+        }
+        li {
+          padding: 0px 1em;
+        }
+        li:last-child {
+          padding-left: 1em;
+          padding-right: 0px;
+        }
+      }
+    }
+    a {
+      text-decoration: none;
+      color: $darkblue;
+      font-size: 1.5em;
+      @include underline-effect($darkblue);
+    }
+  }
+  
+  // Hide hamburger alt text on page load where hamburger is hidden anyway for cleanliness
+
+  .sr-only {
+    @media (min-width: 993px) {
+      display: none!important;
+    }
+  }
+}

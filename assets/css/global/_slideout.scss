@@ -1,0 +1,76 @@
+body.menu-open {
+    overflow: hidden;
+}
+.slideout {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    transition: 0.3s all;
+    -moz-transition: 0.3s all;
+    -webkit-transition: 0.3s all;
+    z-index: 3;
+    padding: 30px;
+    overflow-y: scroll;
+    background-image: url('/assets/img/mobile-bg.png');
+    background-position: center center;
+    background-size: cover;
+    color: $white;
+    @media (min-width: 567px) {
+        width: 450px;
+        right: -550px;
+    }
+    @media (max-width: 576px) {
+        width: 100vw;
+        right: -100vw;
+    }
+    .close-menu {
+        position: absolute;
+        top: 35px;
+        right: 35px;
+        cursor: pointer;
+    }
+    i {
+      font-size: 2.2em;
+      color: $white;
+      z-index: 2;
+    }
+    h2 {
+      font-family: $handwritten;
+      color: $white;
+      font-size: 2.8em;
+      margin-bottom: 30%;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      li:first-child {
+        margin-bottom: 15px;
+      }
+      a {
+        text-decoration: none;
+        @include underline-effect($white);
+      }
+      li {
+        font-family: $title;
+        font-size: 2.2em;
+        font-weight: $bold;
+        color: $white;
+        padding: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+      li:last-child {
+        margin-bottom: 0px;
+      }
+    }
+    .slideout-container {
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      z-index: 1;
+    }
+}
+
+.slideout.active {
+  right: 0px;
+}
