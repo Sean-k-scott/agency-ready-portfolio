@@ -347,3 +347,19 @@ section.contact-get_in_touch {
     }
   }
 }
+
+// Blog page
+
+section.blog-post_one, section.blog-post_two, section.blog-post_three {
+  .content-container {
+    margin: 0px auto;
+    max-width: 800px;
+    width: 100%;
+  }
+}
+
+section.blog-post_one {
+  h2 {
+    margin-bottom: 25px;
+  }
+}

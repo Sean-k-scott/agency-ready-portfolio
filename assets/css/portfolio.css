@@ -882,3 +882,11 @@ section.contact-get_in_touch input, section.contact-get_in_touch textarea {
   @media (max-width: 578px) {
     section.contact-get_in_touch input, section.contact-get_in_touch textarea {
       width: 100%; } }
+
+section.blog-post_one .content-container, section.blog-post_two .content-container, section.blog-post_three .content-container {
+  margin: 0px auto;
+  max-width: 800px;
+  width: 100%; }
+
+section.blog-post_one h2 {
+  margin-bottom: 25px; }
