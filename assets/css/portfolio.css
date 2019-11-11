@@ -12,18 +12,33 @@ h1 {
 
 h2 {
   font-size: 2.2em; }
+  @media (max-width: 578px) {
+    h2 {
+      font-size: 1.9em; } }
 
 h3 {
   font-size: 2em; }
+  @media (max-width: 578px) {
+    h3 {
+      font-size: 1.7em; } }
 
 h4 {
   font-size: 1.8em; }
+  @media (max-width: 578px) {
+    h4 {
+      font-size: 1.5em; } }
 
 h5 {
   font-size: 1.6em; }
+  @media (max-width: 578px) {
+    h5 {
+      font-size: 1.3em; } }
 
 h6 {
   font-size: 1.4em; }
+  @media (max-width: 578px) {
+    h6 {
+      font-size: 1.2em; } }
 
 html {
   -webkit-box-sizing: border-box;
@@ -726,3 +741,98 @@ section.cv-references_available .content-container {
   margin: 0px auto 50px auto;
   max-width: 800px;
   width: 100%; }
+
+section.about-opening_section .content-container {
+  margin: 0px auto;
+  max-width: 800px;
+  width: 100%; }
+  section.about-opening_section .content-container h2 {
+    margin-bottom: 25px; }
+
+section.about-faq_section .flex-container .open-close, section.about-faq_section .flex-container .collapsed .open-close {
+  background: #000;
+  display: inline-block;
+  height: 24px;
+  position: relative;
+  -webkit-transition: background 0.4s ease;
+  -o-transition: background 0.4s ease;
+  transition: background 0.4s ease;
+  width: 24px;
+  padding-left: 10px;
+  padding-right: 10px; }
+  section.about-faq_section .flex-container .open-close::after, section.about-faq_section .flex-container .collapsed .open-close::after, section.about-faq_section .flex-container .open-close::before, section.about-faq_section .flex-container .collapsed .open-close::before {
+    clear: both;
+    content: "";
+    display: table;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: #F8F8F8; }
+  section.about-faq_section .flex-container .open-close::after, section.about-faq_section .flex-container .collapsed .open-close::after {
+    height: 2px;
+    width: 12px; }
+  section.about-faq_section .flex-container .open-close::before, section.about-faq_section .flex-container .collapsed .open-close::before {
+    height: 12px;
+    opacity: 1;
+    -webkit-transition: opacity 0.4s ease;
+    -o-transition: opacity 0.4s ease;
+    transition: opacity 0.4s ease;
+    width: 2px; }
+
+section.about-faq_section .flex-container .open-close {
+  background: rgba(0, 0, 0, 0.5); }
+  section.about-faq_section .flex-container .open-close::before {
+    opacity: 0; }
+
+section.about-faq_section .flex-container .collapsed:hover .open-close {
+  background: rgba(0, 0, 0, 0.6); }
+
+section.about-faq_section .flex-container h2 {
+  margin-bottom: 25px; }
+
+section.about-faq_section .flex-container .content1, section.about-faq_section .flex-container .content2, section.about-faq_section .flex-container .content3, section.about-faq_section .flex-container .content4 {
+  display: none;
+  background-color: #F8F8F8;
+  color: #1a1d24;
+  padding: 10px 25px;
+  margin-bottom: 25px; }
+
+section.about-faq_section .flex-container .row1, section.about-faq_section .flex-container .row2, section.about-faq_section .flex-container .row3, section.about-faq_section .flex-container .row4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 10px 25px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #F8F8F8;
+  color: #1a1d24; }
+  section.about-faq_section .flex-container .row1 h3, section.about-faq_section .flex-container .row2 h3, section.about-faq_section .flex-container .row3 h3, section.about-faq_section .flex-container .row4 h3 {
+    margin-right: 25px; }
+
+section.about-faq_section .flex-container .collapse {
+  background-color: #FFF;
+  display: block !important; }
+
+section.about-faq_section .content-container {
+  margin: 0px auto;
+  max-width: 800px;
+  width: 100%; }
+
+body.no-js .content1, body.no-js .content2, body.no-js .content3, body.no-js .content4 {
+  display: block !important; }
+
+section.about-closing_section .content-container {
+  margin: 0px auto;
+  max-width: 800px;
+  width: 100%; }
+  section.about-closing_section .content-container h2 {
+    margin-bottom: 25px; }
+  section.about-closing_section .content-container ul {
+    padding-left: 15px; }

@@ -217,3 +217,74 @@ section.cv-references_available {
     width: 100%;
   }
 }
+
+// About section
+
+section.about-opening_section {
+  .content-container {
+    margin:0px auto;
+    max-width: 800px;
+    width: 100%;
+    h2 {
+      margin-bottom: 25px;
+    }
+  }
+}
+
+section.about-faq_section {
+  .flex-container {
+    @include accordianIcons($black, $softwhite, 24px, 12px)
+    h2 {
+      margin-bottom: 25px;
+    }
+    .content1, .content2, .content3, .content4 {
+      display: none;
+      background-color: $softwhite;
+      color: $darkgrey;
+      padding: 10px 25px;
+      margin-bottom: 25px;
+    }
+    .row1, .row2, .row3, .row4 {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 25px;
+      align-items: center;
+      background-color: $softwhite;
+      color: $darkgrey;
+      h3 {
+        margin-right: 25px;
+      }
+    }
+    .collapse {
+      background-color: $white;
+      display: block!important;
+    }
+  }
+  .content-container {
+    margin: 0px auto;
+    max-width: 800px;
+    width: 100%;
+  }
+}
+
+// No Javascript display accordian answers
+
+body.no-js {
+  .content1, .content2, .content3, .content4 {
+    display: block!important;
+  }
+}
+
+section.about-closing_section {
+  .content-container {
+    margin:0px auto;
+    max-width: 800px;
+    width: 100%;
+    h2 {
+      margin-bottom: 25px;
+    }
+    ul {
+      padding-left: 15px;
+    }
+  }
+}
