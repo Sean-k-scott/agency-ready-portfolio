@@ -51,7 +51,7 @@
   <section class="home-technologies_i_use last-section_padding">
     <div class="flex-container flex-column">
       <h2><strong>Technologies</strong></h2>
-      <div class="flex">
+      <div class="tech-icons flex">
         <div class="icon-container">
           <i class="fab fa-html5" title="HTML5"></i>
         </div>
@@ -75,6 +75,32 @@
         </div>
         <div class="icon-container">
           <i class="fab fa-bitbucket" title="Bitbucket"></i>
+        </div>
+      </div>
+      <div class="backup-icons flex">
+        <div class="icon-container">
+          <img src="/assets/img/logos/html5.svg" alt="HTML5 Logo" />
+        </div>
+        <div class="icon-container">
+          <img src="/assets/img/logos/css3-alt.svg" alt="CSS3 Logo" />
+        </div>
+        <div class="icon-container">
+          <img src="/assets/img/logos/sass.svg" alt="Sass Logo" />
+        </div>
+        <div class="icon-container">
+          <img src="/assets/img/logos/js-square.svg" alt="Javascript Logo" />
+        </div>
+        <div class="icon-container">
+          <img src="/assets/img/logos/php.svg" alt="PHP Logo" />
+        </div>
+        <div class="icon-container">
+          <img src="/assets/img/logos/wordpress.svg" alt="Wordpress Logo" />
+        </div>
+        <div class="icon-container">
+          <img src="/assets/img/logos/github.svg" alt="GitHub Logo" />
+        </div>
+        <div class="icon-container">
+          <img src="/assets/img/logos/bitbucket.svg" alt="Bitbucket Logo" />
         </div>
       </div>
           <a class="to-top" href="#top" title="To top of page">Top of Page</a>

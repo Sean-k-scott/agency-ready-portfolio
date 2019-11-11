@@ -169,19 +169,19 @@ section {
 .to-top {
   margin: 50px auto; }
 
-.button {
+.button, button {
   text-transform: uppercase;
   text-decoration: none !important;
   display: inline-block; }
-  .button:hover {
+  .button:hover, button:hover {
     text-decoration: none;
     cursor: pointer; }
     @media (min-width: 768px) {
-      .button:hover {
+      .button:hover, button:hover {
         -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
         transform: scale(1.05); } }
-  .button.c2a-button {
+  .button.c2a-button, button.c2a-button {
     color: #FFF !important;
     background-color: #B52807;
     letter-spacing: 2px;
@@ -576,6 +576,20 @@ section.home-technologies_i_use .flex {
       -ms-flex: 1 0 50%;
       flex: 1 0 50%; } }
 
+section.home-technologies_i_use .backup-icons {
+  display: none; }
+  section.home-technologies_i_use .backup-icons .icon-container img {
+    width: auto;
+    height: 80px; }
+
+body.no-js .backup-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+body.no-js .tech-icons {
+  display: none; }
+
 section.portfolio-opening_section .flex-container {
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -836,3 +850,32 @@ section.about-closing_section .content-container {
     margin-bottom: 25px; }
   section.about-closing_section .content-container ul {
     padding-left: 15px; }
+
+section.contact-get_in_touch .content-container, section.contact-get_in_touch .form-container {
+  margin: 0px auto;
+  max-width: 800px;
+  width: 100%; }
+
+section.contact-get_in_touch .form-container {
+  padding: 50px 0px; }
+
+section.contact-get_in_touch .form-group {
+  margin: 25px 0px; }
+
+section.contact-get_in_touch label {
+  display: block;
+  margin-bottom: 5px; }
+
+section.contact-get_in_touch input {
+  min-height: 30px; }
+
+section.contact-get_in_touch input[type="text"], section.contact-get_in_touch textarea[type="text"] {
+  font-family: "Proza Libre", "Arial", sans-serif;
+  font-size: 1.2em; }
+
+section.contact-get_in_touch input, section.contact-get_in_touch textarea {
+  border: 2px solid #000;
+  min-width: 50%; }
+  @media (max-width: 578px) {
+    section.contact-get_in_touch input, section.contact-get_in_touch textarea {
+      width: 100%; } }

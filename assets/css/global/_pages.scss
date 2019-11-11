@@ -74,6 +74,27 @@ section.home-technologies_i_use {
       }
     }
   }
+  // Styling No Javascript icons
+  .backup-icons {
+    display: none;
+    .icon-container {
+      img {
+        width: auto;
+        height: 80px;
+      }
+    }
+  }
+}
+
+// Show SVGs instead of Fontawesome if no-js
+
+body.no-js {
+  .backup-icons {
+    display: flex;
+  }
+  .tech-icons {
+    display: none;
+  }
 }
 
 // Portfolio
@@ -285,6 +306,40 @@ section.about-closing_section {
     }
     ul {
       padding-left: 15px;
+    }
+  }
+}
+
+// Contact page
+
+section.contact-get_in_touch {
+  .content-container, .form-container {
+    margin: 0px auto;
+    max-width: 800px;
+    width: 100%;
+  }
+  .form-container {
+    padding: 50px 0px;
+  }
+  .form-group {
+    margin: 25px 0px;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input {
+    min-height: 30px;
+  }
+  input[type="text"], textarea[type="text"] {
+    font-family: $bodytext;
+    font-size: 1.2em;
+  }
+  input, textarea {
+    border: 2px solid $black;
+    min-width: 50%;
+    @media (max-width: 578px) {
+      width: 100%;
     }
   }
 }
