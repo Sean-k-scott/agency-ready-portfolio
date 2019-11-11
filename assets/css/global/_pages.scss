@@ -239,6 +239,10 @@ section.cv-references_available {
   }
 }
 
+.pb {
+  padding-bottom: 10px;
+}
+
 // About section
 
 section.about-opening_section {
@@ -331,7 +335,7 @@ section.contact-get_in_touch {
   input {
     min-height: 30px;
   }
-  input[type="text"], textarea[type="text"] {
+  input[type="text"], textarea {
     font-family: $bodytext;
     font-size: 1.2em;
   }

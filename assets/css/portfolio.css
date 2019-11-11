@@ -756,6 +756,9 @@ section.cv-references_available .content-container {
   max-width: 800px;
   width: 100%; }
 
+.pb {
+  padding-bottom: 10px; }
+
 section.about-opening_section .content-container {
   margin: 0px auto;
   max-width: 800px;
@@ -869,7 +872,7 @@ section.contact-get_in_touch label {
 section.contact-get_in_touch input {
   min-height: 30px; }
 
-section.contact-get_in_touch input[type="text"], section.contact-get_in_touch textarea[type="text"] {
+section.contact-get_in_touch input[type="text"], section.contact-get_in_touch textarea {
   font-family: "Proza Libre", "Arial", sans-serif;
   font-size: 1.2em; }
 

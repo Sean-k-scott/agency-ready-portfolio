@@ -14,7 +14,7 @@
         <p>From Lancashire in the North-West of England, having a love of computers and technology from a young age, I originally started out training to be a Network Engineer.</p>
         <p>On top of my Networking experience, I tapped into my creative side and learnt to program and operate lighting and sound for Theatre Productions.</p>
         <p>This led to me deciding to return to University as a mature student, retraining myself in website development.</p>
-        <p>I've spent the past 9 months working with <a href="https://www.icansee.co.uk" target="_blank" ref="nofollow">icansee digital agency</a> creating bespoke wordpress themes for clients, enjoying every moment.</p>
+        <p>I've spent the past 9 months working with <a href="https://www.icansee.co.uk" target="_blank" rel="nofollow">icansee digital agency</a> creating bespoke wordpress themes for clients, enjoying every moment.</p>
         <p>I'm continuing to grow and improve my abilities in my professional life, improving my abilty to write clean and efficient code and provide clients with quick loading, responsive and attractive sites.</p>
       </div>
     </div>

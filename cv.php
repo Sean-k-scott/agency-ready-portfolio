@@ -22,7 +22,7 @@
         <h4>
           <i class="fab fa-fw fa-github"></i>
           <a href="https://github.com/sean-k-scott" target="_blank" title="Github">Github</a>
-        <h4>
+        </h4>
         <h4>
           <i class="fab fa-fw fa-twitter"></i>
           <a href="https://twitter.com/seanscott64" target="_blank" title="Twitter">Twitter</a>
@@ -120,13 +120,11 @@
           <li>Y3 - Agency Ready</li>
           <li>Y3 - User Experience Design</li>
           <li>Y3 - Practical Web Project</li>
-          <li>Y3 - Systems, Thinking and Organisational Resources</li>
-          <br />
+          <li class="pb">Y3 - Systems, Thinking and Organisational Resources</li>
           <li>Y2 - Web Site Development</li>
           <li>Y2 - Web Programming</li>
           <li>Y2 - Digital Project Management</li>
-          <li>Y2 - Creative Media Asset Production</li>
-          <br />
+          <li class="pb">Y2 - Creative Media Asset Production</li>
           <li>Y1 - Web Technologies</li>
           <li>Y1 - Media Making</li>
           <li>Y1 - People, Communications and Media Industries</li>
