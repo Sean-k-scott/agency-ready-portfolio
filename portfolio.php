@@ -8,7 +8,7 @@
 <main id="top">
   <section class="portfolio-opening_section first-section_padding">
     <div class="flex-container flex-column">
-      <h2><strong>Below are some of the sites I've worked on in the past year both myself and for icansee:</strong></h2>
+      <h2><strong>Some of the sites I've worked on in the past year both individually and for a digital agency:</strong></h2>
     </div>
   </section>
   <section id="developed" class="portfolio-case_study standard-section_padding">

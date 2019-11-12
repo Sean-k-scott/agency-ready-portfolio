@@ -102,7 +102,6 @@
           <img src="/assets/img/logos/bitbucket.svg" alt="Bitbucket Logo" />
         </div>
       </div>
-          <a class="to-top" href="#top" title="To top of page">Top of Page</a>
     </div>
   </section>
 </main>
