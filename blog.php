@@ -28,14 +28,13 @@
       <div class="content-container">
         <h3> Blog Post Three - Performance and Optimization</h3>
         <h4>Code</h4>
-        <p>When coding my portfolio site using Sass, the aim was to make the code as clean and as reusable as possible. I started out with a CSS reset initially adding the border-box code from ‘CSS FTW’ Paul Irish(Irish, 2012), and the responsive images code:<br />
+        <p>When coding my portfolio site using Sass, the aim was to make the code as clean and as reusable as possible. I started out with a CSS reset initially adding the border-box code from ‘CSS FTW’ Paul Irish(Irish, 2012), and the responsive images code:</p>
         <div class="code">img {<br/>
           max-width: 100%;<br/>
           height: auto;<br/>
         }
         </div>
-      <br/>
-        Ensuring that all my images would be responsive. I also reset my lists, body and header padding. For the global styling I created a default flex container and grid container. I also used the pseudo-class of :nth-child to change the colour scheme of each alternate section:<br/>
+        <p>Ensuring that all my images would be responsive. I also reset my lists, body and header padding. For the global styling I created a default flex container and grid container. I also used the pseudo-class of :nth-child to change the colour scheme of each alternate section:</p>
         <div class="code">
           section:nth-child(odd) {<br/>
             @include borders-tl-br($darkblue);<br/>
@@ -43,9 +42,7 @@
             color: $darkgrey;<br/>
           }
         </div>
-        <br/>
-        And did the same for even sections. The include is a Sass mixin for the ‘border art’ on each section, I created separate mixins for the art to be top-left &amp; bottom-right or top-right &amp; bottom-left.
-        </p>
+        <p>And did the same for even sections. The include is a Sass mixin for the ‘border art’ on each section, I created separate mixins for the art to be top-left &amp; bottom-right or top-right &amp; bottom-left.</p>
         <p>I also created default responsive grid settings for an image and text left and right setup, allowing for extra grid space for the images. Also included here are media queries to stack the content as the screen size reduces, his is showcased well on the portfolio page. Finally I set preset styling for links, buttons and section padding for use across the site to keep consistency.</p>
         <p>After the global styling, I created sass partials containing variables for fonts &amp; colours, typography and some mixins for use across the site, allowing for easy global changes to be made site-wide.</p>
         <h4>Optimization</h4>

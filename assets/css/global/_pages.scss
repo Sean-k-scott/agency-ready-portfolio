@@ -378,10 +378,11 @@ section.blog-post_one, section.blog-post_two, section.blog-post_three {
     top: 10px;
     right: 10px;
     background-color: $lightblue;
+    padding: 5px;
     color: $softwhite;
   }
   ul {
-    padding-left: 10px;
+    padding-left: 0px;
     li {
       margin-bottom: 10px;
       &:last-child {
