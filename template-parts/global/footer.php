@@ -25,5 +25,9 @@
     <div class="copyright">
       <p>&copy; 2019 - Sean Scott</p>
     </div>
+    <div class="mmu-disclaimer">
+      <p>&copy; <a href="http://www.mmu.ac.uk/" title="MMU homepage">MMU 2019</a> &middot;This is student coursework &middot; Tutor <a href="mailto:r.eskins@mmu.ac.uk">Richard Eskins</a> &middot;
+      <a href="//validator.w3.org/check?uri=referer" title="W3C HTML Validation Service">Valid HTML</a></p>
+    </div>
   </div>
 </footer>

@@ -154,6 +154,16 @@ section:nth-child(even) {
   section:nth-child(even) a:hover {
     cursor: pointer; }
 
+footer a {
+  color: #FF9182;
+  text-decoration: underline; }
+
+footer a:visited {
+  color: #BB9CE6; }
+
+footer a:hover {
+  cursor: pointer; }
+
 .first-section_padding {
   padding: 75px 20px 75px 20px; }
 
@@ -366,6 +376,10 @@ footer {
   footer .copyright {
     margin-top: 25px;
     padding-bottom: 25px; }
+  footer .mmu-disclaimer {
+    padding-bottom: 20px; }
+    footer .mmu-disclaimer p {
+      margin: 0px; }
 
 body.menu-open {
   overflow: hidden; }

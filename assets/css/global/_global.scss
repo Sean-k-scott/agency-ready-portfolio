@@ -89,6 +89,19 @@ section:nth-child(even) {
   }
 }
 
+footer {
+  a {
+    color: $c2alightred;
+    text-decoration: underline;
+  }
+  a:visited {
+    color: $lightpurple;
+  }
+  a:hover {
+    cursor: pointer;
+  }
+}
+
 // Preset section padding
 
 .first-section_padding {
