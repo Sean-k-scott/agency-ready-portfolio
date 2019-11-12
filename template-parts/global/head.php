@@ -12,5 +12,5 @@
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700%7CProza+Libre:400,600%7CDancing+Script:700&display=swap" rel="stylesheet">
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script defer src="https://kit.fontawesome.com/a73609e08e.js" crossorigin="anonymous"></script>
-  <script src="/assets/js/custom.js"></script>
+  <script defer src="/assets/js/custom.js"></script>
 </head>
