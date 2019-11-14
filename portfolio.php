@@ -141,7 +141,7 @@
         <img src="/assets/img/portfolio/beechs-butchers.jpg" alt="Screenshot of the upcoming Beechs Butchers homepage" />
       </div>
       <div class="content-right">
-        <h2><strong>Beech's Butchers (Upcoming)</strong></h2>
+        <h2><strong>Beech's Butchers</strong></h2>
         <p>Beech's Butchers provides the finest locally sourced produce. Beech's have three shops located in Wilpshire, Barrowford and Bamford Farm Shop.</p>
         <p>John wanted an updated site to go with the newly opened Bamford Farm Shop. You can order through 'Click &amp; Collect' on the site, and your order will be prepared for you to collect in-store.</p>
         <div>Technologies Used:
@@ -154,6 +154,7 @@
             <li>- Fuse</li>
           </ul>
         </div>
+        <a class="button c2a-button" target="_blank" rel="nofollow" href="https://www.beechs.co.uk/" title="Beechs Butchers Website">Visit Beechs</a>
       </div>
     </div>
   </section>
@@ -163,8 +164,8 @@
         <img src="/assets/img/portfolio/supalite-newtheme.jpg" alt="Screenshot of the Supalite new theme homepage" />
       </div>
       <div class="content-left">
-        <h2><strong>Supalite Roof (Upcoming)</strong></h2>
-        <p>Supalite transform conservatories into year round living spaces.</p>
+        <h2><strong>SupaLite Roof</strong></h2>
+        <p>SupaLite transform conservatories into year round living spaces.</p>
         <p>An updated theme for the main Supaliteroof website, the new responsive theme more closely reflects the companies brochure.</p>
         <div>Technologies Used:
           <ul>
@@ -175,6 +176,7 @@
             <li>- ACF (Advanced Custom Fields)</li>
           </ul>
         </div>
+        <a class="button c2a-button" target="_blank" rel="nofollow" href="https://www.supaliteroof.co.uk/" title="SupaLite Roof Website">Visit SupaLite</a>
       </div>
     </div>
   </section>
