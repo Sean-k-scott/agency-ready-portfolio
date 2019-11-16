@@ -388,6 +388,10 @@ section.blog-post_one, section.blog-post_two, section.blog-post_three {
       &:last-child {
         margin-bottom: 0px;
       }
+      a {
+        word-break: break-all;
+        hyphens: auto;
+      }
     }
   }
 }
