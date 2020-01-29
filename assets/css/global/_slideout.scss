@@ -17,7 +17,7 @@ body.menu-open {
     color: $white;
     @media (min-width: 567px) {
         width: 450px;
-        right: -550px;
+        right: -450px;
     }
     @media (max-width: 576px) {
         width: 100vw;

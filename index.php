@@ -105,7 +105,7 @@
     </div>
   </section>
 </main>
-  <?php include 'template-parts/global/footer.php' ?>
   <?php include 'template-parts/global/slideout.php' ?>
+  <?php include 'template-parts/global/footer.php' ?>``
 </body>
 </html>
