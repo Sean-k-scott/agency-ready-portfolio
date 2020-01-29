@@ -11,6 +11,8 @@
       <div class="image-left">
         <img src="/assets/img/sean-scott.jpg" alt="Sean Scott working on a laptop in development of a website" />
       </div>
+      <div class="test">
+      </div>
       <div class="content-right">
         <h2><strong>Front-End Development</strong></h2>
         <p>I'm a Front-End Developer currently working at <a href="https://www.icansee.co.uk" title="icansee digital agency" target="_blank">icansee digital agency</a> specialising in creating bespoke wordpress themes. I work primarily with HTML, CSS, Sass, PHP and Wordpress, and I'm expanding my skillset to include react and gatsby.</p>
