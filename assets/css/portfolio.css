@@ -165,13 +165,13 @@ footer a:hover {
   cursor: pointer; }
 
 .first-section_padding {
-  padding: 125px 20px 100px 20px; }
+  padding: 150px 20px 125px 20px; }
 
 .last-section_padding {
-  padding: 100px 20px 125px 20px; }
+  padding: 125px 20px 150px 20px; }
 
 .standard-section_padding {
-  padding: 100px 20px; }
+  padding: 150px 20px; }
 
 section {
   position: relative; }
@@ -217,7 +217,7 @@ body.no-js nav {
 
 body.no-js header {
   position: static; }
-  body.no-js header i {
+  body.no-js header .toggle-menu {
     display: none !important; }
 
 @media (max-width: 992px) {
@@ -269,12 +269,12 @@ header {
         width: 100%; } }
     header .left-container a {
       text-decoration: none; }
-  header i {
+  header .toggle-menu {
     display: inline-block;
-    font-size: 1.8em;
-    color: #07074D; }
+    width: auto;
+    height: 40px; }
     @media (min-width: 992px) {
-      header i {
+      header .toggle-menu {
         display: none !important; } }
   header h1 {
     font-family: "Dancing Script", "Palatino", cursive;
@@ -402,7 +402,7 @@ body.menu-open {
   @media (min-width: 567px) {
     .slideout {
       width: 450px;
-      right: -550px; } }
+      right: -450px; } }
   @media (max-width: 576px) {
     .slideout {
       width: 100vw;
@@ -412,9 +412,9 @@ body.menu-open {
     top: 35px;
     right: 35px;
     cursor: pointer; }
-  .slideout i {
-    font-size: 2.2em;
-    color: #FFF;
+  .slideout .close-menu {
+    width: auto;
+    height: 40px;
     z-index: 2; }
   .slideout h2 {
     font-family: "Dancing Script", "Palatino", cursive;
@@ -506,6 +506,7 @@ section.home-opening_section .content-right {
   grid-row: auto; }
   @media (min-width: 768px) {
     section.home-opening_section .content-right {
+      margin-top: 50px;
       -ms-grid-column: 4;
       -ms-grid-column-span: 8;
       grid-column: 4/12;
@@ -590,19 +591,9 @@ section.home-technologies_i_use .flex {
       -ms-flex: 1 0 50%;
       flex: 1 0 50%; } }
 
-section.home-technologies_i_use .backup-icons {
-  display: none; }
-  section.home-technologies_i_use .backup-icons .icon-container img {
-    width: auto;
-    height: 80px; }
-
-body.no-js .backup-icons {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
-
-body.no-js .tech-icons {
-  display: none; }
+section.home-technologies_i_use .tech-icons .icon-container img {
+  width: auto;
+  height: 80px; }
 
 section.portfolio-opening_section .flex-container {
   -webkit-box-align: center;
@@ -622,12 +613,14 @@ section.portfolio-case_study .content-left {
   grid-row: auto; }
   @media (min-width: 768px) {
     section.portfolio-case_study .content-left {
+      margin-top: 50px;
       -ms-grid-column: 4;
       -ms-grid-column-span: 8;
       grid-column: 4/12;
       grid-row: auto; } }
   @media (min-width: 992px) {
     section.portfolio-case_study .content-left {
+      margin-top: 50px;
       -ms-grid-column: 2;
       -ms-grid-column-span: 5;
       grid-column: 2/7;
@@ -646,6 +639,7 @@ section.portfolio-case_study .content-right {
   grid-row: auto; }
   @media (min-width: 768px) {
     section.portfolio-case_study .content-right {
+      margin-top: 50px;
       -ms-grid-column: 4;
       -ms-grid-column-span: 8;
       grid-column: 4/12;
@@ -944,8 +938,40 @@ section.blog-post_one ul, section.blog-post_two ul, section.blog-post_three ul {
       -ms-hyphens: auto;
       hyphens: auto; }
 
-section.blog-post_one h2, section.blog-post_one h3 {
-  margin-bottom: 25px; }
+section.blog-post_one h2 {
+  font-weight: 600;
+  margin-bottom: 10px; }
+
+section.blog-post_one h3 {
+  font-size: 1.325em;
+  font-weight: 600; }
 
 section.blog-post_one h4 {
+  font-size: 1.175em;
+  margin-bottom: 25px; }
+
+.blog__link {
+  display: block;
+  margin: 20px 0; }
+
+.blog__return__start {
+  display: block;
+  margin-bottom: 50px; }
+
+.blog__return__end {
+  display: block;
+  margin-top: 50px; }
+
+.blog__post {
   margin-bottom: 15px; }
+  .blog__post:last-child {
+    margin-bottom: 0px; }
+
+.blog__images {
+  background-color: #FFF;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 25px 0; }
+  .blog__images img {
+    border: 2px solid #1a1d24;
+    border-radius: 10px; }

@@ -1,7 +1,7 @@
 <!-- Start Flexible Meta and Title Content variables -->
 <?php $metadesc = "Sean Scott is an aspiring front end developer in his third year at MMU studying website development, contact him for more information about his previous or upcoming work or with any questions you may have" ?>
 <?php $metakeywords = "Sean, Scott, web, website, development, front, end, front-end, contact, get, in, touch" ?>
-<?php $title = "Sean Scott - Get In Touch - Lancashire Based Front End Web Developer" ?>
+<?php $title = "Get In Touch - Front End Web Developer - Sean Scott" ?>
 <!-- End Flexible Meta and Title Content variables -->
   <?php include 'template-parts/global/head.php' ?>
   <?php include 'template-parts/global/header.php' ?>

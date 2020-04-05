@@ -11,7 +11,7 @@
           <h1>Sean Scott</h1>
         </a>
       <?php } ?>
-        <i class="fas fa-bars toggle-menu" title="Mobile Menu"> <!-- title on fontawesome is for accessibility acts like an alt tag -->
+        <img class="toggle-menu" src="/assets/img/bars.svg" />
         </i>
       </div>
       <nav>
@@ -23,11 +23,11 @@
           ?>
           <li><a title="Return to Homepage" href="/">Home</a></li>
           <?php } ?>
-          <li><a title="See my Portfolio" href="/portfolio.php">Portfolio</a></li>
-          <li><a title="Read my Blog" href="/blog.php">Blog</a></li>
-          <li><a title="Curriculum Vitae" href="/cv.php">CV</a></li>
-          <li><a title="About Sean" href="/about.php">About</a></li>
-          <li><a title="Contact Information" href="/contact.php">Contact</a></li>
+          <li><a title="See my Portfolio" href="/portfolio/">Portfolio</a></li>
+          <li><a title="Read my Blog" href="/blog/">Blog</a></li>
+          <li><a title="Curriculum Vitae" href="/cv/">CV</a></li>
+          <li><a title="About Sean" href="/about/">About</a></li>
+          <li><a title="Contact Information" href="/contact/">Contact</a></li>
         </ul>
       </nav>
   </div>

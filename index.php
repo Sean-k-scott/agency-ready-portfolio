@@ -1,7 +1,7 @@
 <!-- Start Flexible Meta and Title Content variables -->
 <?php $metadesc = "Sean Scott is an aspiring front end developer in his third year at MMU studying website development, this is his portfolio site where you can learn more about him and his previous work, read his blog and contact him if you have any questions" ?>
 <?php $metakeywords = "Sean, Scott, web, website, development, front, end, front-end" ?>
-<?php $title = "Sean Scott - Lancashire Based Front End Web Developer" ?>
+<?php $title = "Front End Web Developer - Sean Scott" ?>
 <!-- End Flexible Meta and Title Content variables -->
   <?php include 'template-parts/global/head.php' ?>
   <?php include 'template-parts/global/header.php' ?>
@@ -53,32 +53,6 @@
     <div class="flex-container flex-column">
       <h2><strong>Technologies</strong></h2>
       <div class="tech-icons flex">
-        <div class="icon-container">
-          <i class="fab fa-html5" title="HTML5"></i>
-        </div>
-        <div class="icon-container">
-          <i class="fab fa-css3-alt" title="CSS3"></i>
-        </div>
-        <div class="icon-container">
-          <i class="fab fa-sass" title="Sass-lang"></i>
-        </div>
-        <div class="icon-container">
-          <i class="fab fa-js-square" title="Javascript &amp; JQuery"></i>
-        </div>
-        <div class="icon-container">
-          <i class="fab fa-php" title="PHP"></i>
-        </div>
-        <div class="icon-container">
-          <i class="fab fa-wordpress" title="Wordpress"></i>
-        </div>
-        <div class="icon-container">
-          <i class="fab fa-github" title="Github"></i>
-        </div>
-        <div class="icon-container">
-          <i class="fab fa-bitbucket" title="Bitbucket"></i>
-        </div>
-      </div>
-      <div class="backup-icons flex">
         <div class="icon-container">
           <img src="/assets/img/logos/html5.svg" alt="HTML5 Logo" />
         </div>

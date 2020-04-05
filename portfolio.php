@@ -1,7 +1,7 @@
 <!-- Start Flexible Meta and Title Content variables -->
 <?php $metadesc = "Portfolio page for Sean Scott, displaying his previous, current and upcoming works." ?>
 <?php $metakeywords = "Sean, Scott, web, website, development, front, end, front-end, portfolio" ?>
-<?php $title = "Portfolio - Sean Scott - Lancashire Based Front End Web Developer" ?>
+<?php $title = "Portfolio - Front End Web Developer - Sean Scott" ?>
 <!-- End Flexible Meta and Title Content variables -->
   <?php include 'template-parts/global/head.php' ?>
   <?php include 'template-parts/global/header.php' ?>

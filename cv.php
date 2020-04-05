@@ -1,7 +1,7 @@
 <!-- Start Flexible Meta and Title Content variables -->
 <?php $metadesc = "Sean Scott is an aspiring front end developer in his third year at MMU studying website development, his Curriculum Vitae contains his work history." ?>
 <?php $metakeywords = "Sean, Scott, web, website, development, front, end, front-end, cv, curriculum, vitae" ?>
-<?php $title = "Sean Scott - Curriculum Vitae - Lancashire Based Front End Web Developer" ?>
+<?php $title = "Curriculum Vitae - Front End Web Developer - Sean Scott" ?>
 <!-- End Flexible Meta and Title Content variables -->
   <?php include 'template-parts/global/head.php' ?>
   <?php include 'template-parts/global/header.php' ?>
