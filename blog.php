@@ -10,7 +10,7 @@
     <div class="flex-container">
       <div class="content-container">
         <h2>Blog</h2>
-        <p>Some thoughts, rambles and a written journey of my coding learning experience.</p>
+        <p>Some thoughts, rambles and a written journey of my code learning experience.</p>
         <ul class="blog__posts">
           <li class="blog__post">
             <a href="/posts/post-one/">October 2019 - The Digital Industry &amp; Me.</a>

@@ -15,6 +15,7 @@
         <h4>by Sean Scott</h4>
         <a href="http://17083372.webdevmmu.uk/pinnaclewp/video-game-coaching-united-states/" class="blog__link" title="Pinnacle Wordpress SEO Page">Demonstrator One - Wordpress SEO Page</a>
         <a href="http://17083372.webdevmmu.uk/pinnaclewp/wp-login.php" class="blog__link" title="Pinnacle Wordpress Login">Demonstrator One - Wordpress Login</a>
+        <a href="https://github.com/Sean-k-scott/pinnacle-wordpress" class="blog__link" title="GitHub Repository for Project">GitHub Repo</a>
         <p>WordPress is currently; and has been for several years - the most popular Content Management System (CMS) in the world.</p>
         <p>As of March 2020, WordPress owns over 60% of the global websites with identified CMS’ which is over 35% of all websites (W3Techs, 2020).</p>
         <p>WordPress is so popular due to its open-source nature and large amount (50,000+) of plugins available in order to fulfil any business’ needs and connect to a large amount of external applications such as mail providers like MailChimp or Mailjet (W3Techs, 2020).</p>

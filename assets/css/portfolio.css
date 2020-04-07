@@ -206,6 +206,9 @@ section {
   .content-left ul li, .content-right ul li {
     padding-left: 10px; }
 
+.extra-mt {
+  margin-top: 15px; }
+
 body.no-js nav {
   display: block !important; }
   @media (max-width: 576px) {
